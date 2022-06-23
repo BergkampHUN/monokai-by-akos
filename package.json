@@ -1,0 +1,23 @@
+{
+    "name": "theme-monokai-akos",
+    "displayName": "MonokaiByAkos",
+    "description": "MonokaiByAkos",
+    "version": "0.0.1",
+    "publisher": "Akos",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "images/logo.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "MonokaiByAkos",
+                "uiTheme": "vs-dark",
+                "path": "./themes/monokai_akos.tmTheme"
+            }
+        ]
+    }
+}
